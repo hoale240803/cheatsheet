@@ -44,3 +44,12 @@ h1 { font-size: 2rem; /* 32px */ }
 ```
 
 # Viewport Meta Tag
+
+# Dots Per Inch (DPI)
+
+```
+@media only screen and (min-resolution: 300dpi) {
+    /* CSS for high resolution screens */
+}
+
+```
