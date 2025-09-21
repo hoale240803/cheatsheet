@@ -1,0 +1,29 @@
+.product-grid-section {
+  padding: 2rem 0;
+}
+
+.product-grid-section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .product-grid-section {
+    padding: 1.5rem 0;
+  }
+
+  .product-grid-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-grid {
+    gap: 1rem;
+  }
+}

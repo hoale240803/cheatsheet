@@ -1,0 +1,164 @@
+.home-page {
+  min-height: 100vh;
+}
+
+.hero-section {
+  padding: 2rem 0;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.featured-section {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.featured-item {
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.featured-item:hover {
+  transform: translateY(-5px);
+}
+
+.featured-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.featured-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.price {
+  margin-bottom: 1rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.current-price {
+  color: #b80d22;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.categories-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.categories-grid {
+  gap: 2rem;
+}
+
+.category-card {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-card:hover {
+  transform: scale(1.02);
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover img {
+  transform: scale(1.1);
+}
+
+.category-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.category-overlay h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.about-section {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-section {
+    padding: 1rem 0;
+  }
+
+  .featured-section,
+  .categories-section,
+  .about-section {
+    padding: 2rem 0;
+  }
+
+  .categories-grid {
+    gap: 1rem;
+  }
+
+  .category-card {
+    height: 200px;
+  }
+
+  .category-overlay {
+    padding: 1rem;
+  }
+
+  .category-overlay h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+}

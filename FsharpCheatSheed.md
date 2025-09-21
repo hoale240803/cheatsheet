@@ -22,3 +22,13 @@ let record = { Name = "Alice"; Age = 30 }
 type Person = { Name: string; Age: int }
 let person: Person = { Name = "Bob"; Age = 25 }
 ```
+
+## Comments
+
+## Strings
+
+## Basic Types and Literals
+
+```
+
+```
